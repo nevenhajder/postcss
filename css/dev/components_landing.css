@@ -1,0 +1,60 @@
+
+.c-landing__bg {
+	display: flex;
+	min-height: 100vh;
+	background-size: cover;
+	flex-direction: column;
+	background-image: url('https://livedemo00.template-help.com/wt_58533/images/header-1.jpg');
+	background-repeat: no-repeat;
+}
+
+.c-landing {
+	flex: 1;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.c-landing__heading {
+	color: white;
+	font-size: 79px;
+	text-align: center;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+
+	small {
+		display: block;
+		font-size: 21px;
+		font-weight: bold;
+	}
+}
+
+.c-landing__blurb {
+	font-size: 24px;
+	max-width: 1150px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 60px;
+}
+
+.c-landing__buttons {
+	text-align: center;
+}
+
+.c-landing__buttons .g-btn {
+	min-width: 207px;
+	border-color: color(white alpha(0.3));
+	background-color: transparent;
+
+	&:first-of-type {
+		margin-right: 20px;
+	}
+
+	&:hover {
+		color: white;
+		border-color: var(--color__yellow-sea);;
+		background-color: var(--color__yellow-sea);
+	}
+}

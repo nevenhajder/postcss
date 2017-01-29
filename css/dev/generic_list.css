@@ -1,0 +1,29 @@
+
+.g-list__links--horiz {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+
+	li:not(:last-child) {
+		margin-right: 0.25em;
+	}
+}
+
+.g-list__arrows {
+	color: var(--color__yellow-sea);
+
+	li {
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 12px;
+
+		&:before {
+			top: 0;
+			left: 0;
+			content: '\e315';
+			position: absolute;
+			font-size: 14px;
+			font-family: 'Material Icons';
+		}
+	}
+}

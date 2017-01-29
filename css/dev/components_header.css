@@ -1,0 +1,31 @@
+
+.c-header__bg {
+	background-color: color(var(--color__black-pearl) alpha(-20%));
+}
+
+.c-header__inner {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.c-header__logo {
+	
+}
+
+.c-header__search,
+.c-header__cart {
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	transition: color 0.2s;
+
+	&:hover {
+		color: var(--color__yellow-sea);
+	}
+}
+
+.c-header__cart {
+	margin-left: 2em;
+}

@@ -1,0 +1,15 @@
+.c-clients {
+	width: 100%;
+	display: table;
+	margin-top: 40px;
+
+	li {
+		cursor: pointer;
+		display: table-cell;
+		transition: opacity 0.2s ease;
+
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}

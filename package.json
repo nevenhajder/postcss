@@ -1,0 +1,24 @@
+{
+  "name": "postcss-practice",
+  "version": "1.0.0",
+  "description": "A place to mess around with postcss",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "cssnext": "^1.8.4",
+    "autoprefixer": "^6.5.3",
+    "precss": "^1.4.0",
+    "gulp-postcss": "^6.2.0",
+    "postcss-canadian-stylesheets": "0.0.1"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^6.2.0",
+    "lost": "^8.0.0",
+    "postcss-canadian-stylesheets": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neven Hajder",
+  "license": "ISC"
+}

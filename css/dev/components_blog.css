@@ -1,0 +1,72 @@
+.c-blog {
+    margin-top: 50px;
+    lost-utility: clearfix;
+}
+
+.c-blog__column {
+    lost-column: 1/3;
+}
+
+.c-blog__image-wrap {
+    overflow: hidden;
+
+    img {
+        margin: auto;
+        display: block;
+        transition: transform 3s linear;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.5);
+            transition: transform 30s linear; 
+        }
+    }
+}
+
+.c-blog__title {
+    color: var(--color__pickled-bluewood);
+    margin: 20px 0;
+    display: block;
+    font-size: 23px;
+    font-weight: 400;
+
+    &:hover {
+        color: var(--color__yellow-sea);
+    }
+}
+
+.c-blog__footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+    .c-blog__date,
+    .c-blog__comments {
+        color: var(--color__grey-nickel);
+        position: relative;
+        font-size: 14px;
+
+        &:before {
+            color: var(--color__yellow-sea);
+            content: "\e8b5";
+            font-size: 18px;
+            font-family: "Material Icons";
+            padding-right: 11px;
+            vertical-align: sub;
+        }
+    }
+
+    .c-blog__comments {
+        font-weight: normal;
+
+        &:before {
+            content: "\e0cb";
+            padding-right: 5px;
+        }
+
+        &:hover {
+            color: var(--color__yellow-sea);
+        }
+    }

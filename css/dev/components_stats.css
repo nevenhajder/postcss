@@ -1,0 +1,61 @@
+
+.c-stats__bg {
+	background-color: var(--color__wild-sand);
+}
+
+.c-stats {
+	width: var(--site-max-width);
+	margin: auto;
+	lost-utility: clearfix;
+}
+
+.c-stats__block {
+	lost-column: 1/4;
+}
+ 
+.c-stats__circle {
+	width: 185px;
+	height: 185px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	margin-bottom: 23px;
+	justify-content: center;
+
+	&-73 {
+		background-image: url('../../img/circle-73.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&-89 {
+		background-image: url('../../img/circle-89.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&-80 {
+		background-image: url('../../img/circle-80.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&-95 {
+		background-image: url('../../img/circle-95.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+
+
+	.c-stats__circle p {
+		color: var(--color__pickled-bluewood);
+		font-size: 43px;
+		text-align: center;
+	}
+
+
+.c-stats__text {
+	color: #b8b8b6;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}

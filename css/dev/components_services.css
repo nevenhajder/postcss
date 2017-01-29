@@ -1,0 +1,44 @@
+.c-services__wrap {
+	lost-utility: clearfix;
+}
+
+.c-services__col {
+	lost-column: 1/3;
+}
+
+.c-services__media-obj,
+.c-services__media-obj--reverse {
+	display: flex;
+	margin-top: 50px;
+}
+
+.c-services__media-text {
+	flex: 1;
+}
+
+
+ 
+.c-services__media-image {
+	width: 100px;
+	padding-left: 30px;
+
+	[class*="material-icons"] {
+		color: white;
+		width: 70px;
+		height: 70px;
+		font-size: 35px;
+		display: inline-flex;
+		align-items: center;
+		border-radius: 50%;
+		justify-content: center;
+		background-color: var(--color__yellow-sea);
+	}
+}
+
+.c-services__media-obj--reverse {
+
+	.c-services__media-image {
+		padding-left: 0;
+		padding-right: 30px;
+	}
+}

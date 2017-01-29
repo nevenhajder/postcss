@@ -1,0 +1,10 @@
+/* These are the colour variables used throughout the website */
+:root {
+	--color__yellow-sea: rgb(255, 174, 0);					/* Main yellow */
+	--color__black-pearl: rgb(7, 28, 51);					/* Dark blue background */
+	--color__pickled-bluewood: rgb(52, 73, 94);				/* Heading blue */
+	--color__oslo-grey: rgb(136, 138, 140);					/* Body copy */
+	--color__grey-nickel: rgb(184, 184, 182);				/* Faint grey for copy text  */
+	--color__wild-sand: rgb(245, 245, 245);					/* Light background grey */
+}
+

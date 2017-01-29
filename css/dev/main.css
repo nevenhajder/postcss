@@ -1,0 +1,33 @@
+/* 	ToDo:
+		- postcss reset of styles
+		- lost grid plugin for layout
+		- cssnext plugin for future CSS
+			- use CSS variables instead
+		- plugin for minification
+		- !sorry for the Canuck syntax
+ */
+ 
+@import "settings_colors.css";
+@import "generic_reset.css";
+@import "generic_icons.css";
+@import "generic_layout.css";
+@import "generic_page.css";
+@import "generic_typography.css";
+@import "generic_button.css";
+@import "generic_form.css";
+@import "generic_list.css";
+@import "components_nav.css";
+@import "components_header.css";
+@import "components_landing.css";
+@import "components_summary.css";
+@import "components_services.css";
+@import "components_stats.css";
+@import "components_blog.css";
+@import "components_plans.css";
+@import "components_newsletter.css";
+@import "components_clients.css";
+@import "components_testimonials.css";
+@import "components_footer.css";
+@import "trump.css"; 
+ 
+
